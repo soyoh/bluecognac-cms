@@ -1,19 +1,22 @@
 ---
-templateKey: 'about-page'
+templateKey: "about-page"
 path: /about
-title: About our values
+image: img/bluecognac-about-us.jpg
+title: About us
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Their paths could have crossed in Brussels or in America, where they both have ties –but Shu Sato (Japan) and Victoria Arias (France) actually met in Amsterdam in 2019.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+He’s a musician, she loves to sing and write. Driven by a same sensitivity to nostalgia and an undeniable love for the music of past decades, they formed Blue Cognac in 2020, after a movie night that would create an unexpected epiphany.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+Their debut song, set to launch in early 2021, explores the dream they both pursue since childhood –and the inextinguible hope that it someday comes true.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+### Victoria (Singer, lyricist)
+
+Victoria Arias was born in Paris, France, in 1989 to an American-Colombian father and a Belgian mother. Her childhood was spent reading, singing, writing stories and drawing portraits –that is, when she wasn’t dreaming about time-travelling to the early 70’s or obsessing over the Beatles
+After a few years in Barcelona, you’ll now find her in Amsterdam, where she lives, as well as on the internet [@mangoandsalt](http://www.instagram.com/mangoandsalt).
+
+### Shu (Composer, multiinstrumentalist)
+
+Shu, born in Tokyo in 1984, spent his childhood traveling around the globe due to his father’s job. Not having a city or country to call “home”, the teenage Shu was always feeling a bit unsure about his own identity. But there was one thing the boy was sure about: his love and passion for writing music. When he was composing, he could build his own universe where he could feel confident and be himself. Needless to say, music eventually became his home. 20 odd years later, he now hopes that his compositions will also become a home to others.
+You can find his solo work at [@wavesofreminiscence](http://www.instagram.com/wavesofreminiscence)
