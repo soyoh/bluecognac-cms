@@ -16,7 +16,10 @@ const Footer = class extends React.Component {
             <div style={{ maxWidth: "100vw" }} className="columns">
               <div className="column is-4"></div>
               <div className="column is-4 social">
-                <a title="instagram" href="https://instagram.com">
+                <a
+                  title="instagram"
+                  href="https://instagram.com/bluecognacmusic"
+                >
                   <img
                     src={instagram}
                     alt="Instagram"

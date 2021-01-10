@@ -6,7 +6,7 @@ singlename: "Premier Rêve"
 bandname: Blue Cognac
 singleoutdate: ""
 description: "desc"
-storelink: ""
+storelink: "https://bluecognacstore.webstarts.com/store/product/premier-reve"
 ---
 
 Like our music? Your support helps us producing more!

@@ -52,7 +52,9 @@ export const IndexPageTemplate = ({
               <PageContent className="content" content={content} />
 
               <div className="has-text-centered">
-                <button class="button is-link">Buy the song</button>
+                <a href={storelink} target="_blank">
+                  <button class="button is-link">Buy the song</button>
+                </a>
               </div>
             </div>
           </div>
