@@ -14,6 +14,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         bandname={data.bandname}
         singleoutdate={data.singleoutdate}
         storelink={data.storelink}
+        content={widgetFor("body")}
       />
     );
   } else {
