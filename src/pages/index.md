@@ -7,6 +7,7 @@ bandname: Blue Cognac
 singleoutdate: ""
 description: "desc"
 storelink: "https://bluecognacstore.webstarts.com/store/product/premier-reve"
+buttontext: "Buy our song"
 ---
 
 Like our music? Your support helps us producing more!

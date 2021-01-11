@@ -14,6 +14,7 @@ const IndexPagePreview = ({ entry, getAsset, widgetFor }) => {
         bandname={data.bandname}
         singleoutdate={data.singleoutdate}
         storelink={data.storelink}
+        buttontext={data.buttontext}
         content={widgetFor("body")}
       />
     );

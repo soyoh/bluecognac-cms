@@ -13,6 +13,7 @@ export const IndexPageTemplate = ({
   content,
   contentComponent,
   storelink,
+  buttontext,
 }) => {
   const PageContent = contentComponent || Content;
   return (
@@ -53,7 +54,7 @@ export const IndexPageTemplate = ({
 
               <div className="has-text-centered">
                 <a href={storelink} target="_blank">
-                  <button class="button is-link">Buy the song</button>
+                  <button class="button is-link">{buttontext}</button>
                 </a>
               </div>
             </div>
@@ -72,6 +73,7 @@ IndexPageTemplate.propTypes = {
   singleoutdate: PropTypes.string,
   content: PropTypes.string,
   storelink: PropTypes.string,
+  buttontext: PropTypes.string,
 };
 
 const IndexPage = ({ data }) => {
@@ -88,6 +90,7 @@ const IndexPage = ({ data }) => {
         bandname={post.frontmatter.bandname}
         singleoutdate={post.frontmatter.singleoutdate}
         storelink={post.frontmatter.storelink}
+        buttontext={post.frontmatter.buttontext}
         content={post.html}
       />
     </Layout>
@@ -115,6 +118,7 @@ export const pageQuery = graphql`
         bandname
         singleoutdate
         storelink
+        buttontext
       }
     }
   }
