@@ -1,17 +1,16 @@
 ---
 templateKey: index-page
 title: Blue Cognac
-image: img/bluecognac-single-cover.jpg
-singlename: "Premier Rêve"
+image: /img/single-cover-v5.jpg
+singlename: Premier Rêve
 bandname: Blue Cognac
-singleoutdate: ""
-description: "desc"
-storelink: "https://bluecognacstore.webstarts.com/store/product/premier-reve"
-buttontext: "Buy our song"
+singleoutdate: Release on 1st February 2021
+buttontext: Support and receive the song now
+storelink: https://bluecognacstore.webstarts.com/store/product/premier-reve
+description: desc
 ---
+Like our music? Your support helps us produce more!
 
-Like our music? Your support helps us producing more!
-
-You can order our debut track Premier Rêve through the link below for 2.99 euros. We will send you the link to download the song as well as a little surprise from us.
+Send 2.99€ to support Blue Cognac! In return, you'll receive our debut track "Premier rêve" in mp3 and high resolution (48kHz 24bit) formats and a photo/lyric card. You will also get a little message from us. 
 
 THANK YOU!
