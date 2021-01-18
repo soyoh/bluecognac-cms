@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Blue Cognac
 image: /img/single-cover-v5.jpg
-singlename: Premier Rêve
+singlename: Premier rêve
 bandname: Blue Cognac
 singleoutdate: Release on 1st February 2021
 buttontext: Support and receive the song now
