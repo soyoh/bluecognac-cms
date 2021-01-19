@@ -2,8 +2,9 @@
 templateKey: about-page
 path: /about
 title: About us
-image: img/bluecognac-about-us.jpg
+image: /img/bluecognac-about-us.jpg
 ---
+
 Their paths could have crossed in Brussels or in America, where they both have ties –but Shu Sato (Japan) and Victoria Arias (France) actually met in Amsterdam in 2019.
 
 He’s a musician, she loves to sing and write. Driven by a same sensitivity to nostalgia and an undeniable love for the music of past decades, they formed Blue Cognac in 2020, after a movie night that would create an unexpected epiphany.

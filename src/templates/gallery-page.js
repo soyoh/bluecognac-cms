@@ -4,17 +4,12 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
-export const AboutPageTemplate = ({
-  title,
-  content,
-  contentComponent,
-  image,
-}) => {
+export const GalleryPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
     <section className="section section--gradient">
-      <div className="container has-text-centered">
+      {/* <div className="container has-text-centered">
         <div className="columns is-mobile is-centered">
           <div className="column is-half">
             <img
@@ -26,7 +21,7 @@ export const AboutPageTemplate = ({
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="container">
         <div className="columns">
@@ -44,19 +39,19 @@ export const AboutPageTemplate = ({
   );
 };
 
-AboutPageTemplate.propTypes = {
+GalleryPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   image: PropTypes.string,
   contentComponent: PropTypes.func,
 };
 
-const AboutPage = ({ data }) => {
+const GalleryPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <AboutPageTemplate
+      <GalleryPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         image={post.frontmatter.image}
@@ -66,14 +61,14 @@ const AboutPage = ({ data }) => {
   );
 };
 
-AboutPage.propTypes = {
+GalleryPage.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default AboutPage;
+export default GalleryPage;
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const galleryPageQuery = graphql`
+  query GalleryPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
