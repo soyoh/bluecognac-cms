@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
@@ -9,7 +9,6 @@ export const IndexPageTemplate = ({
   image,
   singlename,
   bandname,
-  description,
   content,
   contentComponent,
   storelink,
@@ -20,8 +19,8 @@ export const IndexPageTemplate = ({
     <div>
       <div className="section margin-top-0">
         <div className="container has-text-centered">
-          <div class="columns is-mobile is-centered">
-            <div class="column is-half">
+          <div className="columns is-mobile is-centered">
+            <div className="column is-half">
               <img
                 src={`${
                   !!image.childImageSharp
@@ -32,10 +31,10 @@ export const IndexPageTemplate = ({
             </div>
           </div>
 
-          <h1 class="title is-1" style={{ fontSize: "40px" }}>
+          <h1 className="title is-1" style={{ fontSize: "40px" }}>
             {singlename}
           </h1>
-          <h3 class="title is-3">{bandname}</h3>
+          <h3 className="title is-3">{bandname}</h3>
         </div>
       </div>
       <section className="section section--gradient">
@@ -53,8 +52,8 @@ export const IndexPageTemplate = ({
               <PageContent className="content" content={content} />
 
               <div className="has-text-centered">
-                <a href={storelink} target="_blank">
-                  <button class="button is-link">{buttontext}</button>
+                <a href={storelink} target="_blank" rel="noreferrer">
+                  <button className="button is-link">{buttontext}</button>
                 </a>
               </div>
             </div>
