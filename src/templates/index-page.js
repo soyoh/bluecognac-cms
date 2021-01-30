@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import ReactAudioPlayer from "react-audio-player";
 
 export const IndexPageTemplate = ({
   image,
@@ -35,6 +36,11 @@ export const IndexPageTemplate = ({
             {singlename}
           </h1>
           <h3 className="title is-3">{bandname}</h3>
+          <ReactAudioPlayer
+            src="/img/premier_reve.mp3"
+            controls
+            controlsList="nodownload"
+          />
         </div>
       </div>
       <section className="section section--gradient">
