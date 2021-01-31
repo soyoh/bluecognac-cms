@@ -53,7 +53,12 @@ export const IndexPageTemplate = ({
 
               <div className="has-text-centered">
                 <a href={storelink} target="_blank" rel="noreferrer">
-                  <button className="button is-link">{buttontext}</button>
+                  <button
+                    className="button is-link"
+                    style={{ backgroundColor: "#9E492A" }}
+                  >
+                    {buttontext}
+                  </button>
                 </a>
               </div>
             </div>

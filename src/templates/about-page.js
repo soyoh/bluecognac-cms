@@ -15,8 +15,8 @@ export const AboutPageTemplate = ({
   return (
     <section className="section section--gradient">
       <div className="container has-text-centered">
-        <div className="columns is-mobile is-centered">
-          <div className="column is-half">
+        <div className="columns is-centered">
+          <div className="column is-half-desktop">
             <img
               src={`${
                 !!image.childImageSharp
