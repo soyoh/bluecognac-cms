@@ -2,7 +2,7 @@
 templateKey: about-page
 path: /about
 title: About us
-image: /img/bluecognac-about-us.jpg
+image: /img/web-bio-optimized.jpg
 ---
 Their paths could have crossed in Brussels or in America, where they both have ties –but Victoria Arias (France) and Shu (Japan) actually met in Amsterdam in 2019.
 
