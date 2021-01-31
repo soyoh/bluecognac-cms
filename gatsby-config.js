@@ -89,7 +89,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: ["G-R7YSYDTWZW"],
+        trackingIds: ["UA-188539434-1"],
       },
     },
     "gatsby-plugin-netlify", // make sure to keep it last in the array
