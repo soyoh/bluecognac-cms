@@ -12,7 +12,7 @@ Their debut song, set to launch in early 2021, explores the dream they both purs
 
 ### Victoria
 
-Victoria Arias was born in Paris, France, in 1989 to an American-Colombian father and a Belgian mother. Her childhood was spent reading, singing, writing stories and drawing portraits –that is, when she wasn’t dreaming about time-travelling to the early 70’s or obsessing over the Beatles
+Victoria Arias was born in Paris, France, in 1989 to an American-Colombian father and a Belgian mother. Her childhood was spent reading, singing, writing stories and drawing portraits –that is, when she wasn’t dreaming about time-travelling to the early 70’s or obsessing over the Beatles.
 After a few years in Barcelona, you’ll now find her in Amsterdam, where she lives, as well as on the internet [@mangoandsalt](http://www.instagram.com/mangoandsalt).
 
 ### Shu
