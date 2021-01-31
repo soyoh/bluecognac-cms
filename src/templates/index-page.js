@@ -18,10 +18,10 @@ export const IndexPageTemplate = ({
   const PageContent = contentComponent || Content;
   return (
     <div>
-      <div className="section margin-top-0">
+      <div className="section margin-top-0" style={{ paddingBottom: 0 }}>
         <div className="container has-text-centered">
-          <div className="columns is-mobile is-centered">
-            <div className="column is-half">
+          <div className="columns is-centered">
+            <div className="column is-half-desktop">
               <img
                 src={`${
                   !!image.childImageSharp
@@ -32,10 +32,12 @@ export const IndexPageTemplate = ({
             </div>
           </div>
 
-          <h1 className="title is-1" style={{ fontSize: "40px" }}>
+          <h1 className="title is-3" style={{ marginBottom: 5 }}>
             {singlename}
           </h1>
-          <h3 className="title is-3">{bandname}</h3>
+
+          <h3 className="title is-4">{bandname}</h3>
+
           <ReactAudioPlayer
             src="/img/premier_reve.mp3"
             controls
@@ -45,15 +47,7 @@ export const IndexPageTemplate = ({
       </div>
       <section className="section section--gradient">
         <div className="container">
-          {/* <div className="content">
-          <div className="tile">
-            <h1 className="title">{mainpitch.title}</h1>
-          </div>
-          <div className="tile">
-            <h3 className="subtitle">{mainpitch.description}</h3>
-          </div>
-        </div> */}
-          <div className="columns is-mobile is-centered">
+          <div className="columns is-centered">
             <div className="column is-8">
               <PageContent className="content" content={content} />
 
