@@ -5,6 +5,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import ReactAudioPlayer from "react-audio-player";
+import { trackCustomEvent } from "gatsby-plugin-google-analytics";
 
 export const IndexPageTemplate = ({
   image,
@@ -42,6 +43,24 @@ export const IndexPageTemplate = ({
             src="/img/premier_reve.mp3"
             controls
             controlsList="nodownload"
+            onPlay={(e) => {
+              console.log("---play ");
+
+              trackCustomEvent({
+                category: "Play Button",
+                action: "Click",
+                label: "Play button clicked",
+              });
+            }}
+            onEnded={(e) => {
+              console.log("--- ended");
+
+              trackCustomEvent({
+                category: "End play",
+                action: "play",
+                label: "End play song",
+              });
+            }}
           />
         </div>
       </div>

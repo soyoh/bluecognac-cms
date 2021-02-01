@@ -85,13 +85,26 @@ module.exports = {
         ],
       },
     },
+
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: ["UA-188539434-1"],
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-188539434-1",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 0,
+        // Defers execution of google analytics script after page load
+        defer: false,
+        cookieDomain: "bluecognac.com",
       },
     },
+
     "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
 };
