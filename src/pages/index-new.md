@@ -1,10 +1,10 @@
 ---
 templateKey: index-new
 title: Blue Cognac
-image: /img/bluecognac–premierreve_cover_optimized.jpg
-singlename: Premier rêve
+image: /img/beforethedawn_coverfinal_20210620.jpg
+singlename: Before the Dawn
 bandname: Blue Cognac
-singleoutdate: Release on 1st February 2021
+singleoutdate: Release on 12th July 2021
 buttontext: Support and receive the song now
 storelink: https://bluecognacstore.webstarts.com/store/product/premier-reve
 description: desc
