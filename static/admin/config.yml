@@ -53,6 +53,24 @@ collections:
           - { label: Store button text, name: buttontext, widget: string }
           - { label: Store Link, name: storelink, widget: string }
           - { label: "Body", name: "body", widget: "markdown" }
+      - file: "src/pages/index-new.md"
+        label: "New Landing Page"
+        name: "index-new"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "index-page",
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: image }
+          - { label: Single Name, name: singlename, widget: string }
+          - { label: Band Name, name: bandname, widget: string }
+          - { label: Single date, name: singleoutdate, widget: string }
+          - { label: Store button text, name: buttontext, widget: string }
+          - { label: Store Link, name: storelink, widget: string }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
