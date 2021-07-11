@@ -6,6 +6,22 @@ const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
+  const { createRedirect } = actions
+
+  createRedirect({
+    fromPath: '/',
+    toPath: '/songs',
+    isPermanent: true,
+    redirectInBrowser: false,
+ })
+
+ createRedirect({
+  fromPath: '/blog',
+  toPath: '/songs',
+  isPermanent: true,
+  redirectInBrowser: true,
+})
+
   return graphql(`
     {
       allMarkdownRemark(limit: 1000) {
@@ -46,29 +62,6 @@ exports.createPages = ({ actions, graphql }) => {
       })
     })
 
-    // Tag pages:
-    let tags = []
-    // Iterate through each post, putting all found tags into `tags`
-    posts.forEach((edge) => {
-      if (_.get(edge, `node.frontmatter.tags`)) {
-        tags = tags.concat(edge.node.frontmatter.tags)
-      }
-    })
-    // Eliminate duplicate tags
-    tags = _.uniq(tags)
-
-    // Make tag pages
-    tags.forEach((tag) => {
-      const tagPath = `/tags/${_.kebabCase(tag)}/`
-
-      createPage({
-        path: tagPath,
-        component: path.resolve(`src/templates/tags.js`),
-        context: {
-          tag,
-        },
-      })
-    })
   })
 }
 

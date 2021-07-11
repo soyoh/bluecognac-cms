@@ -32,6 +32,29 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
 
+  - name: "songs"
+    label: "Song"
+    publish_mode: editorial_workflow
+    folder: "src/pages/songs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "song-page",
+        }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: Title, name: title, widget: string }
+      - { label: Image, name: image, widget: image }
+      - { label: Single Name, name: singlename, widget: string }
+      - { label: Band Name, name: bandname, widget: string }
+      - { label: Single date, name: singleoutdate, widget: string }
+      - { label: Store button text, name: buttontext, widget: string }
+      - { label: Store Link, name: storelink, widget: string }
+      - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "pages"
     label: "Pages"
     files:
