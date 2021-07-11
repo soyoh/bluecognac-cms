@@ -40,12 +40,10 @@ export const IndexNewTemplate = ({
           <h3 className="title is-4">{bandname}</h3>
 
           <ReactAudioPlayer
-            src="/img/premier_reve.mp3"
+            src="/img/BeforetheDawn.mp3"
             controls
             controlsList="nodownload"
             onPlay={(e) => {
-              console.log("---play ");
-
               trackCustomEvent({
                 category: "Play Button",
                 action: "Click",
@@ -53,8 +51,6 @@ export const IndexNewTemplate = ({
               });
             }}
             onEnded={(e) => {
-              console.log("--- ended");
-
               trackCustomEvent({
                 category: "End play",
                 action: "play",
@@ -100,7 +96,6 @@ IndexNewTemplate.propTypes = {
 };
 
 const IndexPage = ({ data }) => {
-  // const { frontmatter } = data.markdownRemark;
   const { markdownRemark: post } = data;
 
   return (

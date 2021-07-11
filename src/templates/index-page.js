@@ -44,8 +44,6 @@ export const IndexPageTemplate = ({
             controls
             controlsList="nodownload"
             onPlay={(e) => {
-              console.log("---play ");
-
               trackCustomEvent({
                 category: "Play Button",
                 action: "Click",
@@ -53,8 +51,6 @@ export const IndexPageTemplate = ({
               });
             }}
             onEnded={(e) => {
-              console.log("--- ended");
-
               trackCustomEvent({
                 category: "End play",
                 action: "play",
