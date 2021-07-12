@@ -40,7 +40,7 @@ export const SongPageTemplate = ({
           <h3 className="title is-4">{bandname}</h3>
 
           <ReactAudioPlayer
-            src="/img/premier_reve.mp3"
+            src="/img/BeforetheDawn.mp3"
             controls
             controlsList="nodownload"
             onPlay={(e) => {
