@@ -7,7 +7,7 @@ singlename: Before the Dawn
 bandname: Blue Cognac
 singleoutdate: Release on 12th July 2021
 buttontext: Support and receive the song now
-storelink: https://bluecognacstore.webstarts.com/store/product/before-the-dawn
+storelink: https://bluecognacstore.webstarts.com
 description: desc
 ---
 #### Like our music? Your support helps us produce more!
