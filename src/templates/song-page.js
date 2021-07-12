@@ -40,7 +40,7 @@ export const SongPageTemplate = ({
           <h3 className="title is-4">{bandname}</h3>
 
           <ReactAudioPlayer
-            src="/img/BeforetheDawn.mp3"
+            src={singlename == "Before the Dawn" ? "/img/BeforetheDawn.mp3" : "/img/premier_reve.mp3"}
             controls
             controlsList="nodownload"
             onPlay={(e) => {
@@ -128,7 +128,7 @@ export default SongPage;
 
 export const pageQuery = graphql`
   query SongPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "song-page" } }) {
       html
       frontmatter {
         title

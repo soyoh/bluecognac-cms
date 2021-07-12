@@ -55,6 +55,7 @@ collections:
       - { label: Single date, name: singleoutdate, widget: string }
       - { label: Store button text, name: buttontext, widget: string }
       - { label: Store Link, name: storelink, widget: string }
+      - { label: MP3 link, name: mp3link, widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
   # - name: "pages"

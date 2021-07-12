@@ -8,6 +8,7 @@ singleoutdate: Release on 1st February 2021
 buttontext: Support and receive the song now
 storelink: https://bluecognacstore.webstarts.com/store/product/premier-reve
 description: desc
+mp3link: "/img/premier_reve.mp3"
 ---
 #### Like our music? Your support helps us produce more!
 
